@@ -1,0 +1,4 @@
+connection.play(stream,{seek:0,volume:1}).on('finish', () => {
+                voiceChannel.leave();
+            });
+join('../dummymp3/','Saints Row The Third.mp3')
